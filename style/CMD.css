@@ -13,9 +13,21 @@
 }
 
 /*START CAROUSEL*/
+
+
+.visual {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  height: auto;
+}
+
+
+
 .CMD {
   height: auto;
   background: var(--dark);
+  position: relative;
 }
 
 .width {
