@@ -1,0 +1,170 @@
+*:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+:root {
+  --darker: #27374D;
+  --dark: #526D82;
+  --main2: #9DB2BF;
+  --main: #DDE6ED;
+
+}
+
+/*START CAROUSEL*/
+.CMD {
+  height: auto;
+  background: var(--dark);
+}
+
+.width {
+  width: 100%;
+  max-width: 1200px;
+  padding: 30px;
+}
+
+.accordion {
+  border-radius: 15px;
+  margin: 25px;
+  margin-bottom: 100px;
+}
+
+.accordion-header {
+  padding: 10px;
+}
+
+
+
+
+.accordion-item {
+  color: #111;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  background: #000000;
+}
+
+.accordion-item:not(.collapsed) {
+  background: var(--main2);
+  color: #111;
+  cursor: pointer;
+  border-radius: 15px;
+
+}
+
+.accordion-button:not(.collapsed) {
+  background: var(--darker);
+  width: 100%;
+  color: #fff;
+  box-shadow: none;
+  outline: none;
+  border-radius: 15px !important;
+
+}
+
+.accordion-button:not(.collapsed):focus {
+  background: var(--darker);
+  width: 100%;
+  color: #fff;
+  box-shadow: none;
+  outline: none;
+  border-radius: 15px;
+
+}
+
+.accordion-button {
+  background: var(--dark);
+  width: 100%;
+  color: #fff;
+  font-weight: 600;
+  font-size: large;
+  outline: none;
+  border-radius: 15px !important;
+
+}
+
+.input-group-text {
+  background: var(--main);
+  color: var(--darker);
+  font-weight: 500;
+  font-size: medium;
+  outline: 2px var(--darker) !important;
+  border: 2px solid var(--darker) !important;
+  margin-right: 0px;
+}
+
+.accordion-body {
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.acrd-txt {
+  text-align: center;
+}
+
+.acrd-txt h1 {
+  margin-top: 30px;
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  margin-inline: 30px;
+  color: var(--main);
+}
+
+.acrd-txt h1 span {
+  color: var(--darker);
+}
+
+.acrd-txt p {
+  font-weight: 700;
+  color: var(--main);
+}
+
+.input-group {
+  justify-content: center;
+  text-align: center;
+}
+
+
+@media (max-width: 500px) {
+
+  .acrd-txt h1 {
+    font-size: 45px;
+  }
+}
+
+
+
+@media (min-width: 1050px) {
+  .acrd-txt {
+    margin-inline: 18rem;
+  }
+}
+
+@media (max-width:1065px) {
+  .acrd-txt {
+    margin-inline: 5rem;
+  }
+}
+
+
+
+@media (max-width: 950px) {
+  .acrd-body {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .acrd-txt h1 {
+    margin-inline: -50px;
+  }
+}

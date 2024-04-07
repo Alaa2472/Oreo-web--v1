@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>oreo website</title>
+  <link rel="shortcut icon" href="images/arch.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/contact.css">
+  <link rel="stylesheet" href="style/project.css">
+  <link rel="stylesheet" href="style/CMD.css">
+  <link rel="stylesheet" href="style/about.css">
+  <link rel="stylesheet" href="style/loader.css">
+  <link rel="stylesheet" href="style/landing.css">
+
+  <style>
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="loader" id="loader">
+    <div class="wrapper" id="wrapper">
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="shadow"></div>
+      <div class="shadow"></div>
+      <div class="shadow"></div>
+    </div>
+  </div>
+
+  <section id="contentoz" style="display: none;">
+    <header class=" header">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <div class="navbar-brand" href="#Landing">
+            <i class="fa-solid fa-earth-americas fa-xl icon" style="color: #DDE6ED;"></i>
+            <a class="aa">OREO</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <i class="fa fa-list-ul fa-lg" style="color: #DDE6ED;" aria-hidden=" true"></i>
+          </button>
+
+        </div>
+      </nav>
+
+      <div class="offcanvas oro offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            <i class="fa-solid fa-earth-americas fa-xl icon" style="color: #1d2a3b;"></i>
+            DEV OREO
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas">
+            <i class="fa fa-close fa-2xl" style="color: #1d2a3b;" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="offcanvas-body">
+          <li class="nav-item">
+            <a class="nav-link btn active" aria-current="page" href="#Landing">
+              <i class="fa fa-home icon" aria-hidden="true"></i>
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn active" aria-current="page" href="#About">
+              <i class="fa fa-info-circle icon" aria-hidden="true"></i>
+              About
+
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn active" aria-current="page" href="#Projects">
+              <i class="fa-solid fa-umbrella icon " aria-hidden="true"></i>
+              Projects
+
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link btn active" aria-current="page" href="#CMD">
+              <i class="fa-solid fa-hand-holding-hand icon" aria-hidden="true"></i>
+              Commands
+
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn active" aria-current="page" href="#contact">
+              <i class="fa-solid fa-phone icon" aria-hidden="true"></i>
+              Contact
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn active" aria-current="page" href="https://discord.gg/tower">
+              <i class="fa-solid fa-comment icon" aria-hidden="true"></i>
+              Join Our Server
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn active" aria-current="page"
+              href="https://discord.com/api/oauth2/authorize?client_id=1077102416450834453&permissions=141771009872&scope=applications.commands%20bot">
+              <i class="fa-solid fa-robot icon" aria-hidden="true"></i>
+              Invite our bot
+            </a>
+          </li>
+        </div>
+        <div class="oreo2">
+          <svg class="waves2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+              <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+              <use xlink:href="#gentle-wave" x="10" y="0" fill="#27374D" opacity=".25" />
+              <use xlink:href="#gentle-wave" x="10" y="3" fill="#27374D" opacity=".5" />
+              <use xlink:href="#gentle-wave" x="10" y="5" fill="#27374D" opacity=".75" />
+              <use xlink:href="#gentle-wave" x="10" y="7" fill="#27374D" />
+            </g>
+          </svg>
+        </div>
+      </div>
+
+    </header>
+    <section class="landing" id="Landing">
+      <div class="hero text-center container">
+        <div class="hero-body">
+          <div class="hb-txt">
+            <h2>
+              Welcome
+            </h2>
+            <h1>
+              OREO IS A<span> Multi Purpose </span>Discord<span> Bot </span>
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut assumenda autem laudantium quo hic
+              provident deserunt aliquam sapiente dolor esse, velit ea ratione.
+            </p>
+
+            <a href="https://zxc10.t2ce2ma.shop/run/4e48a834cc289feeb7bcc6e11a0fee9207842eebb6e4325c344e047cdda610172c2e3f3f190ddafbe505c91a85ce28bfcab7b9d7b6b3215029c7a9c446fdc8b7aef5311f4c460645f26bed0d6f0ca096278f3857d0379610796ede55dbb3e63a2eac95?Key=At1KcUhy3HlMqs7QiZ4PLw&Expires=1708873777"
+              class="btn h-btn">Join To Our Family
+              <i class="fa fa-long-arrow-right icon2" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mn">
+
+      <div class="alaa">
+        <!------Users Container------>
+        <div class="alaa-stats">
+          <h1>3600+</h1>
+          <p>USERS</p>
+        </div>
+        <div class="alaa-stats">
+          <h1>2000+</h1>
+          <p>SERVERS</p>
+        </div>
+        <div class="alaa-stats">
+          <h1 class="num" a8aa="">230+</h1>
+          <p>CMD</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="About" id="About">
+
+      <div class="about text-center container">
+        <div class="about-text">
+          <h1>
+            ABOUT<span> DEVELOPER</span> OREO
+          </h1>
+        </div>
+        <div class="otto">
+          <div class="about-2">
+            <div class="cardp">
+              <div class="img">
+                <img src="images/arch.png" alt="">
+              </div>
+              <span>About Me</span>
+              <p class="info">
+                I’m Walter, a multidisciplinary designer who focuses on telling my clients’
+                stories visually, through enjoyable and meaningful experiences. I specialize
+                in responsive websites and functional user interfaces.
+              </p>
+              <div class="share">
+                <a
+                  href="https://discord.com/api/oauth2/authorize?client_id=1077102416450834453&permissions=141771009872&scope=applications.commands%20bot"><i
+                    class="fa-solid fa-robot icon" aria-hidden="true"></i></a>
+                <a href="https://discord.gg/developer-tools-931536214228611102"><i class="fa-brands fa-discord icon"
+                    aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/o8r.0/"><i class="fa-brands fa-instagram icon"
+                    aria-hidden="true"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp icon" aria-hidden="true"></i></a>
+              </div>
+              <button>Discord</button>
+            </div>
+          </div>
+          <div class="about-h1">
+            <h1 class="a8a">
+              MY A<span class="c">W</span>E<span class="c">S</span>O<span class="c">M</span>E SKI<span
+                class="c">L</span>LS
+            </h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui repellat sunt
+              asperiores quas earum assumenda vitae, exercitationem nostrum enim accusamus
+              cupiditate, eveniet consectetur eos.
+            </p>
+            <div class="containero">
+              <div class="skill-boxo">
+                <span class="titleo">HTML</span>
+
+                <div class="skill-baro">
+                  <span class="skill-pero htmlo">
+                    <span class="tooltipo">90%</span>
+                  </span>
+                </div>
+              </div>
+
+              <div class="skill-boxo">
+                <span class="titleo">CSS</span>
+
+                <div class="skill-baro">
+                  <span class="skill-pero csso">
+                    <span class="tooltipo">75%</span>
+                  </span>
+                </div>
+              </div>
+              <div class="skill-boxo">
+                <span class="titleo">Boostrap</span>
+
+                <div class="skill-baro">
+                  <span class="skill-pero Boostrapo">
+                    <span class="tooltipo">50%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+      </div>
+      <div class="oreo2" style="overflow: hidden;">
+        <!--Waves Container-->
+
+        <svg class="waves2-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+          <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+          </defs>
+          <g class="parallax">
+            <use xlink:href="#gentle-wave" x="10" y="0" fill="#DDE6ED" opacity=".25" />
+            <use xlink:href="#gentle-wave" x="10" y="3" fill="#DDE6ED" opacity=".5" />
+            <use xlink:href="#gentle-wave" x="10" y="5" fill="#DDE6ED" opacity=".75" />
+            <use xlink:href="#gentle-wave" x="10" y="7" fill="#DDE6ED" />
+          </g>
+        </svg>
+      </div>
+
+    </section>
+
+    <section class="Projects" id="Projects">
+      <div class="project-body">
+        <div class="project-txt">
+
+          <h1>
+            ABOUT<span> DEVELOPER</span> OREO
+          </h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui repellat sunt
+            asperiores quas earum assumenda vitae, exercitationem nostrum enim accusamus
+            cupiditate, eveniet consectetur eos, praesentium accusantium quis a velit natus!
+          </p>
+
+        </div>
+
+
+      </div>
+      <div class="project-card grid">
+        <div class="cardk g-col-6">
+          <div class="card__img"><img src="images/moza.jpg" alt=""></div>
+          <div class="card__avatar"><i class="fa-solid fa-shield-halved" style="color: #ffffff; font-size: 80px;"></i>
+          </div>
+          <div class="card__title">SECURITY</div>
+          <div class="card__subtitle">Our Bot Have an heavy Secure for your server</div>
+          <div class="card__wrapper">
+            <button class="card__btn">Button</button>
+          </div>
+        </div>
+
+        <div class="cardk g-col-6">
+          <div class="card__img"><img src="images/moza.jpg" alt=""></div>
+          <div class="card__avatar"><i class="fa-solid fa-shield-halved" style="color: #ffffff; font-size: 80px;"></i>
+          </div>
+          <div class="card__title">SECURITY</div>
+          <div class="card__subtitle">Our Bot Have an heavy Secure for your server</div>
+          <div class="card__wrapper">
+            <button class="card__btn">Button</button>
+          </div>
+        </div>
+
+        <div class="cardk g-col-6">
+          <div class="card__img"><img src="images/moza.jpg" alt=""></div>
+          <div class="card__avatar"><i class="fa-solid fa-shield-halved" style="color: #ffffff; font-size: 80px;"></i>
+          </div>
+          <div class="card__title">SECURITY</div>
+          <div class="card__subtitle">Our Bot Have an heavy Secure for your server</div>
+          <div class="card__wrapper">
+            <button class="card__btn">Button</button>
+          </div>
+        </div>
+        <div class="cardk g-col-6">
+          <div class="card__img"><img src="images/moza.jpg" alt=""></div>
+          <div class="card__avatar"><i class="fa-solid fa-shield-halved" style="color: #ffffff; font-size: 80px;"></i>
+          </div>
+          <div class="card__title">SECURITY</div>
+          <div class="card__subtitle">Our Bot Have an heavy Secure for your server</div>
+          <div class="card__wrapper">
+            <button class="card__btn">Button</button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <svg class="waves9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="10" y="0" fill="#526D82" opacity=".25" />
+          <use xlink:href="#gentle-wave" x="10" y="3" fill="#526D82" opacity=".5" />
+          <use xlink:href="#gentle-wave" x="15" y="5" fill="#526D82" opacity=".75" />
+          <use xlink:href="#gentle-wave" x="10" y="7" fill="#526D82" />
+        </g>
+      </svg>
+
+    </section>
+
+    <section id="CMD" class="CMD">
+      <div class="acrd-body">
+        <div class="acrd-txt">
+          <h1>
+            ABOUT<span> DEVELOPER</span> OREO
+          </h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui repellat sunt
+            asperiores quas earum assumenda vitae, exercitationem nostrum enim accusamus
+            cupiditate, eveniet consectetur eos, praesentium accusantium quis a velit natus!
+          </p>
+        </div>
+      </div>
+      <div class="accordion width">
+        <div class="accordion-item itm1">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapse1" aria-expanded="true" aria-controls="panelsStayOpen-collapse1">
+              Owner Command
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapse1" class="accordion-collapse collapse ">
+            <div class="accordion-body">
+              <div class="mb-2">
+                <strong>Here Our bot commands.</strong> It is shown by default, until you make changes on it
+              </div>
+              <div class="input-group mb-2">
+                <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                  id="inputGroup-sizing-default">
+                  Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                </span>
+              </div>
+              <div class="input-group mb-2">
+                <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                  id="inputGroup-sizing-default">
+                  Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                </span>
+              </div>
+
+              <div class="input-group mb-2">
+                <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                  id="inputGroup-sizing-default">
+                  Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                </span>
+              </div>
+
+              <div class="input-group mb-2">
+                <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                  id="inputGroup-sizing-default">
+                  Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                </span>
+              </div>
+
+              <div class="input-group mb-2">
+                <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                  id="inputGroup-sizing-default">
+                  Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                </span>
+              </div>
+
+              <div class="input-group mb-2">
+                <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                  id="inputGroup-sizing-default">
+                  Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item itm1">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapse2" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapse2">
+                Moderator Command
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapse2" class="accordion-collapse collapse ">
+              <div class="accordion-body">
+                <div class="mb-2">
+                  <strong>Here Our bot commands.</strong> It is shown by default, until you make changes on it
+                </div>
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="accordion-item itm1">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapse3" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapse3">
+                Admin Command
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapse3" class="accordion-collapse collapse ">
+              <div class="accordion-body">
+                <div class="mb-2">
+                  <strong>Here Our bot commands.</strong> It is shown by default, until you make changes on it
+                </div>
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item itm1">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapse4" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapse4">
+                Games Command
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapse4" class="accordion-collapse collapse ">
+              <div class="accordion-body">
+                <div class="mb-2">
+                  <strong>Here Our bot commands.</strong> It is shown by default, until you make changes on it
+                </div>
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item itm1">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapse5" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapse5">
+                Music Command
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapse5" class="accordion-collapse collapse ">
+              <div class="accordion-body"
+                style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-inline: auto;">
+                <div class="mb-2">
+                  <strong>Here Our Music commands.</strong> It is shown by default, until you make changes on it
+                </div>
+
+                <div class="input-group mb-2 justify-content-center"
+                  style="display: flex; justify-content: center; flex-direction: row; align-items: center;">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Play</span>
+                  <span class="input-group-text mw-100 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    With This command you can play music from youtube, soundcloud and spotify
+                  </span>
+                </div>
+
+                <div class="input-group mb-2 justify-content-center">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+                <div class="input-group mb-2 justify-content-center">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+                <div class="input-group mb-2">
+                  <span class="input-group-text " id="inputGroup-sizing-default">Kick</span>
+                  <span class="input-group-text mw-75 overflow-x-scroll" style="width: 75%;"
+                    id="inputGroup-sizing-default">
+                    Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur elit.
+                  </span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <svg class="waves4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="10" y="0" fill="#DDE6ED" opacity=".25" />
+          <use xlink:href="#gentle-wave" x="10" y="3" fill="#DDE6ED" opacity=".5" />
+          <use xlink:href="#gentle-wave" x="15" y="5" fill="#DDE6ED" opacity=".75" />
+          <use xlink:href="#gentle-wave" x="10" y="7" fill="#DDE6ED" />
+        </g>
+      </svg>
+
+    </section>
+
+    <section id="contact" class="contact-us ">
+      <div class="container">
+        <div class="cow">
+          <div class="col-lg-6 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
+            <div class="section-heading">
+              <h2>Feel <span>Free</span> To Send Us a <span>Message</span> If You <br> <span>have</span> Any Queries
+              </h2>
+              <p>If you have any queries regards anything then please fill out the contact form or mail us at
+                <a class="asg">alasamouly@gmail.com</a>
+              </p>
+              <div class="phone-info">
+                <h4>For any enquiry, Call Us: <span><a>+201112007898</a></span></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
+            <form id="contact" action="https://formspree.io/f/xpzvqajg" method="POST"
+              data-botpoison-public-key="pk_a95d75c1-bd4e-40c3-92eb-60fd1b020728">
+              <div class="row">
+                <div class="col-lg-6">
+                  <fieldset>
+                    <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
+                  </fieldset>
+                </div>
+                <div class="col-lg-6">
+                  <fieldset>
+                    <input type="surname" name="surname" id="surname" placeholder="Surname" autocomplete="on" required>
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email"
+                      required="">
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <textarea name="message" type="text" class="form-control" id="message" placeholder="Message"
+                      required=""></textarea>
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <button type="submit" id="form-submit" class="main-button ">Send Message</button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div style="padding: 15px; padding-top: 50px; background-color: #DDE6ED;">
+      <footer class="text-center  text-lg-start footer text-white">
+        <!-- Grid container -->
+
+        <div class="container p-4 ">
+          <!--Grid row-->
+          <div class="row my-4">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 ml0 mb-md-0">
+
+              <div class="rounded-circle shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
+                style="width: 150px; height: 150px;">
+                <img src="images/arch.png" height="200" alt="" loading="lazy" />
+              </div>
+
+              <p class="text-center">Homless animal shelter The budgetary unit of the Capital City of Warsaw</p>
+
+              <ul class="list-unstyled d-flex flex-row justify-content-center">
+                <li>
+                  <a class="text-white px-2" href="#!">
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white px-2" href="#!">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white ps-2" href="#!">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ftr">
+              <h5 class="text-uppercase mb-4">Important FAQ</h5>
+
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Why you should use our Service</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Why Our Service is So Expensive</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>How to adopt?</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Pets for adoption</a>
+                </li>
+
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ftr">
+              <h5 class="text-uppercase mb-4">Team</h5>
+
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Abo Farghaly</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Mohamed</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Turbo</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Nero</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Yano</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Joe</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ftr">
+              <h5 class="text-uppercase mb-4">Contact</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <p><i class="fas fa-map-marker-alt pe-2"></i>Matrouh, Marsa-Matrouh, Egypt</p>
+                </li>
+                <li>
+                  <p><i class="fas fa-phone pe-2"></i>+ 01 234 567 89</p>
+                </li>
+                <li>
+                  <p><i class="fas fa-envelope pe-2 mb-0"></i>alasamouly@gmail.com</p>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <div class="text-center p-3">
+          © 2024 Copyright:
+          <a class="text-white" href="https://github.com/Alaa2472">
+            <`Oreo` />
+        </div>
+      </footer>
+
+    </div>
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+
+
+
+    <!-- Copyright -->
+    <!-- End of .container -->
+    <script src="js/all.min.js">
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+:root {
+  --darker: #27374D;
+  --dark2: #2e415c;
+  --dark: #526D82;
+  --main2: #9DB2BF;
+  --main: #DDE6ED;
+
+}
+
+
+aside {
+  left: 0;
+  width: 25%;
+  height: 100%;
+  position: fixed;
+}
+
+.itm {
+  margin-left: 15px;
+
+}
+
+.itm ul {
+  margin-left: 10px;
+}
+
+/* 
+.container-fluid {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  .container-fluid a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .nav-item .btn {
+    display: flex;
+    flex-direction: row;
+    padding-block: 10px;
+    padding-left: 12.5px;
+    background-color: var(--darker);
+    margin-bottom: 15px;
+    align-items: center;
+    border-radius: 13px;
+    font-weight: 400;
+    font-size: large;
+    color: var(--main);
+  }
+
+  .nav-item .btn i {
+    margin-right: 30px;
+  }
+  .nav-item {
+    list-style: none;
+  } */
+
+
+strong {
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.accordion-button0 {
+  background: none;
+  border: none;
+  font-size: large;
+  font-weight: 600;
+}
+
+.input-group0 {
+  text-align: left;
+  margin-left: 20px;
+}
