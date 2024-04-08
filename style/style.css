@@ -72,8 +72,8 @@ section {
   z-index: 100;
   /*backdrop-filter: blur(1.2rem);*/
   background: rgba(39, 55, 77, 0.9);
-  -webkit-backdrop-filter: blur(7px);
-  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(6px);
 }
 
 .navbar-toggler {
