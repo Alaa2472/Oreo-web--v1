@@ -33,7 +33,7 @@
 }
 
 .project-txt h1 {
-  margin-top: 30px;
+  margin-top: 50px;
   font-size: 60px;
   font-weight: 800;
   margin-bottom: 30px;
@@ -57,11 +57,6 @@
   margin-bottom: 205px;
 }
 
-.project-body {
-
-  margin-bottom: 90px;
-}
-
 
 
 .project-card {
@@ -71,9 +66,10 @@
 
   grid-auto-rows: auto;
 
-  grid-gap: 1rem;
+  grid-row-gap: 5rem;
 
-  flex-direction: row;
+  grid-column-gap: 5rem;
+
   margin-inline: -10px;
 }
 
@@ -204,6 +200,10 @@
 @media (min-width: 1050px) {
   .project-txt {
     margin-inline: 18rem;
+  }
+
+  .project-text h1 {
+    margin-top: 100px;
   }
 }
 
